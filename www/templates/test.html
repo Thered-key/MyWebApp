@@ -1,0 +1,12 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Test users - Awesome Python Webapp</title>
+</head>
+	<h1>All users</h1>
+	{% for u in users %}
+	<p>{{ u.name }} / {{ u.passwd }}</p>
+	{% endfor %}
+<body>
+</body>
+</html>
